@@ -1,0 +1,115 @@
+#banner {
+    background-image: url(./BannerBack.jpg);
+    
+    background-position: center;
+    margin: 1px;
+    padding: 3%;
+    background-size: 700px;
+    font-family: audiowide;
+}
+
+.bgimage {
+    height:100vh;
+    background: url('./BannerBack.jpg');
+    background-size: contain;
+    background-repeat: round;
+    position:relative;
+}
+/* text css above hero image*/
+.hero_title {
+    font-size: 4.5rem;
+}
+.hero_desc {
+    font-size: 2rem;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+}
+
+body, pre {
+    background-color: rgb(105, 86, 86);
+    color: rgb(255, 255, 255);
+    font-family: cursive;
+}
+
+.centered {
+    text-align: center;
+}
+
+input[type='text'] {
+    border-width: 3px 3px;
+    background-color: #ffffff;
+}
+
+.black {
+    color: #000000;
+    font-style: oblique;
+}
+
+/* a:hover {
+    text-decoration: none;
+    color: #ffffff;
+} */
+
+
+footer {
+    text-align: justify;
+    text-justify: inter-word;
+    font-weight: bold;
+    font-stretch: ultra-expanded;
+}
+/* services section css */
+.servicesText.card{
+    color: grey;
+    height: 100px;
+    cursor: pointer;
+  }
+  .portfolioContent.card {
+    color: grey;
+    height: 180px;
+    cursor: pointer;
+  }
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card-title {
+    text-align: center;
+}
+.card:hover .servicesIcon {
+    color: #008000;
+}
+.servicesText:hover {
+    border: 1px solid #008000;
+}
+.navbarScroll.navbarDark {
+    background-color: rgba(0, 0, 0, 0.411);
+}
+a{
+    color: white;
+}
+a:hover {
+    color: cornsilk;
+}
+/* social media icons styling */
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
+    color: #008000;
+}
+.fab {
+    color: #000000;
+}
+/* footer styling */
+#footer {
+    background-color: #808080;
+    text-align: center;
+}
