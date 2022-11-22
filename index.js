@@ -54,4 +54,15 @@ window.onload = function() {
     css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
     document.body.appendChild(css);
 };
-
+$(function() {
+    var header = $(".navbar");
+    $(window).scroll(function() {    
+        var scroll = $(window).scrollTop();
+    
+        if (scroll >= 200) {
+            header.removeClass('x').addClass("navbarDark");
+        } else {
+            header.removeClass("navbarDark").addClass('x');
+        }
+    });
+});
