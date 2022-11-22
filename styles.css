@@ -1,13 +1,3 @@
-#banner {
-    background-image: url(./BannerBack.jpg);
-    
-    background-position: center;
-    margin: 1px;
-    padding: 3%;
-    background-size: 700px;
-    font-family: audiowide;
-}
-
 .bgimage {
     height:100vh;
     background: url('./BannerBack.jpg');
@@ -15,7 +5,6 @@
     background-repeat: round;
     position:relative;
 }
-/* text css above hero image*/
 .hero_title {
     font-size: 4.5rem;
 }
@@ -30,40 +19,24 @@
     transform: translate(-50%, -50%);
     color: #ffffff;
 }
-
-body, pre {
-    background-color: rgb(105, 86, 86);
+body {
+    background-color: #DEA681;
+    background-image: linear-gradient(75deg, #eecdb6 0%, #d29973 40%, #914715 75%);
     color: rgb(255, 255, 255);
-    font-family: cursive;
+    font-family: "Fuzzy Bubbles", cursive;
 }
-
 .centered {
     text-align: center;
 }
-
-input[type='text'] {
-    border-width: 3px 3px;
-    background-color: #ffffff;
+.inrow {
+    display: inline-block;
 }
-
-.black {
-    color: #000000;
-    font-style: oblique;
-}
-
-/* a:hover {
-    text-decoration: none;
-    color: #ffffff;
-} */
-
-
 footer {
     text-align: justify;
     text-justify: inter-word;
     font-weight: bold;
     font-stretch: ultra-expanded;
 }
-/* services section css */
 .servicesText.card{
     color: grey;
     height: 100px;
@@ -71,7 +44,7 @@ footer {
   }
   .portfolioContent.card {
     color: grey;
-    height: 200px;
+    height: 170px;
     cursor: pointer;
   }
 .servicesIcon {
@@ -82,34 +55,47 @@ footer {
 .card-title {
     text-align: center;
 }
-.card:hover .servicesIcon {
-    color: #008000;
+.card {
+    border-radius: 2%;
+    box-shadow: 3px 3px #db864d;
 }
-.servicesText:hover {
-    border: 1px solid #008000;
+.card:hover, .servicesIcon {
+    color: #7a3403;
+    background-color: #ecc697;
+    box-shadow: 4px 5px;
 }
 .navbarScroll.navbarDark {
-    background-color: rgba(0, 0, 0, 0.411);
+    background-color: #7a35038b;
 }
 a{
     color: white;
 }
 a:hover {
-    color: cornsilk;
+    color: #7a3403;
+    font-weight: bold;
+    text-decoration: none;
 }
-/* social media icons styling */
 .social-icons {
     font-size: 36px;
     cursor: pointer;
 }
-.fa-youtube-play:hover,.fa-github:hover,.fa-linkedin:hover {
-    color: #008000;
+.fa-youtube-play:hover {
+    color: #ee0909;
 }
-.fa {
+.fa-github:hover {
     color: #000000;
 }
-/* footer styling */
+.fa-linkedin:hover {
+    color: darkblue;
+}
+.fa {
+    color: #cfcfcf;
+}
 #footer {
-    background-color: #808080;
+    background-color: #8d430f;
     text-align: center;
+}
+.modal {
+    color: #7a3403;
+    cursor: default;
 }
